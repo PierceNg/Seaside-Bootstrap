@@ -4,7 +4,7 @@ The BaselineOf for Seaside Bootstrap for Pharo
 Class {
 	#name : #BaselineOfBootstrap,
 	#superclass : #BaselineOf,
-	#category : 'BaselineOfBootstrap'
+	#category : #BaselineOfBootstrap
 }
 
 { #category : #baselines }
@@ -14,12 +14,10 @@ BaselineOfBootstrap >> baseline: spec [
 	spec for: #'pharo6.x' do: [	
 		spec preLoadDoIt: #preLoad61.
 		self 
-			seaside3: spec;
 		  	bootstrap: spec ].
 	
 	spec for: #'common' do: [	
 		self 
-			seaside3: spec;
 		  	bootstrap: spec ]
 ]
 
