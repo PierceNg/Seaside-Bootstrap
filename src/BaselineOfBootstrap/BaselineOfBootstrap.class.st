@@ -25,8 +25,7 @@ BaselineOfBootstrap >> baseline: spec [
 BaselineOfBootstrap >> bootstrap: spec [
 
 	spec 
-			package: 'Bootstrap-Core' with: [
-				spec requires: #('Seaside3' ). ];
+			package: 'Bootstrap-Core';
 			package: 'Bootstrap-Widgets' with: [
 				spec requires: #('Bootstrap-Core' ). ];
 			package: 'Bootstrap-Tests-Core' with: [
